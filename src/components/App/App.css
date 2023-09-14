@@ -1,0 +1,29 @@
+app__container{
+    display: flex;
+    flex-direction: column ;
+}
+
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__container{
+    margin: 12px;
+    max-width: 250px;
+}
+
+.tour__img__wrapper{
+ width: 100%;
+}
+
+.tour__img{
+    width: 100%;
+}
+
+.textuals{
+    width: 100%;
+}
