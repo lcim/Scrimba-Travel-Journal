@@ -15,7 +15,7 @@ export default function TravelCard ({title, location, googleMapsUrl, startDate, 
             <div className="textuals">
                 <div className="location">
                     <i className="fa-solid fa-location-dot"></i>
-                    <span className="country">{location}</span>
+                    <span className="country">&nbsp; {location}</span>
                     <a className="location-link" href={googleMapsUrl}>View on Google Maps</a>
                 </div>
                 <h3 className="title">{title}</h3>
