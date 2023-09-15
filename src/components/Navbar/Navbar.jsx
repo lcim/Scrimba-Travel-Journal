@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="navbar-container">
             <div className="navbar">
                 <i className="fa-solid fa-earth-africa" style={{color:"white"}}></i>
-                <span>my travel journal.</span>
+                <span className="navbar__title">My Travel Journal</span>
             </div>
         </div>
     )
