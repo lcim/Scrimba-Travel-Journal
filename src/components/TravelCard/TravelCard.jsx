@@ -1,6 +1,7 @@
 import './TravelCard.css'
 // import React from "react";
-import {PropTypes} from 'prop-types'
+import { PropTypes } from 'prop-types'
+import {FaLocationDot} from 'react-icons/fa6'
 
 export default function TravelCard ({title, location, googleMapsUrl, startDate, endDate, description, imageUrl,}) {
     //console.log(props.destination)
@@ -14,7 +15,7 @@ export default function TravelCard ({title, location, googleMapsUrl, startDate, 
             
             <div className="textuals">
                 <div className="location">
-                    <i className="fa-solid fa-location-dot"></i>
+                    <FaLocationDot />
                     <span className="country">{location}</span>
                     &nbsp;&nbsp;<a className="location-link" href={googleMapsUrl}>View on Google Maps</a>
                 </div>

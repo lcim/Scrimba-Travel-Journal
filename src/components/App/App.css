@@ -12,11 +12,19 @@ app__container {
 }
 
 .card__container {
+  padding: 6px;
   margin: 12px;
   max-width: 250px;
   height: 360px;
   border-radius: 12px 12px 0 0; 
   /* background-color: #fafafa; */
+  box-shadow: 0 6px 6px rgba(230, 230, 230, 1.0);
+}
+
+.card__container:hover {
+  border-radius: 12px 12px 0 0; 
+  /* background-color: #fafafa; */
+  box-shadow: 0 12px 12px rgba(200, 200, 200, 1);
 }
 
 .tour__img__wrapper {
@@ -44,6 +52,10 @@ app__container {
 }
 
 .country{
-    color: orangered;
+    color: rgb(255, 0, 111);;
     font-weight: 700;
+}
+
+.location{
+  color: rgb(255, 0, 111);
 }
