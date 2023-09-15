@@ -14,16 +14,20 @@ app__container {
 .card__container {
   margin: 12px;
   max-width: 250px;
-  height: 500px;
+  height: 360px;
+  border-radius: 12px 12px 0 0; 
+  /* background-color: #fafafa; */
 }
 
 .tour__img__wrapper {
   width: 100%;
+  border-radius: 12px 12px 0 0;
 }
 
 .tour__img {
   width: 100%;
   height: 167px;
+  border-radius: 12px 12px 0 0;
 }
 
 .textuals {
