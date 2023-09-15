@@ -20,7 +20,7 @@ export default function TravelCard ({title, location, googleMapsUrl, startDate, 
                     &nbsp;&nbsp;<a className="location-link" href={googleMapsUrl}>View on Google Maps</a>
                 </div>
                 <h3 className="title">{title}</h3>
-                <div className="season"><span>{startDate}</span> - 
+                <div className="season"><span>{startDate}</span> - &nbsp;
                 <span>{endDate}</span>
                 </div>
                 <p className="description">{description}</p>
