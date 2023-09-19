@@ -1,12 +1,15 @@
+import {FaEarthAfrica} from 'react-icons/fa6'
 
-export default function Navbar() {
+function Navbar() {
     // console.log(props.destination)
     return (
         <div className="navbar-container">
             <div className="navbar">
-                <i className="fa-solid fa-earth-africa" style={{color:"white"}}></i>
+                <FaEarthAfrica />
                 <span className="navbar__title">My Travel Journal</span>
             </div>
         </div>
     )
 }
+
+export default Navbar;
